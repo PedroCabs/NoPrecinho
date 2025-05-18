@@ -1,0 +1,14 @@
+#Input{
+    width: 17.7rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    border: none;
+    font-size: 1.0rem;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#Input > placeholder{
+    color: #000000;
+}

@@ -1,0 +1,28 @@
+#Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7.0rem;
+    align-items: center;
+    background-color: #81C784;
+    width: 100%;
+    height: 100%;
+}
+
+#Logo-Input{
+    display: flex;
+    flex-direction: row;
+    gap: 1.0rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#Logo-Input > img{
+    height: 5.0rem;
+}
+
+#Buttons{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction:row;
+}

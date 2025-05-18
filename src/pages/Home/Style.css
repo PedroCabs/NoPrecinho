@@ -1,0 +1,33 @@
+#Home{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#Stores{
+  margin-top: 1.0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  
+}
+
+#stores{
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+
+}
+
+#Sales{
+  display: flex;
+  flex-direction: column;
+  gap: 1.0rem;
+}
+#sales{
+  display: flex;
+  flex-direction: row;
+  gap: 2.0rem;
+}

@@ -1,0 +1,27 @@
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 10.5rem ;
+  height: 3.0rem;
+  background-color: #FFA726;
+  border-radius: 1.5rem;
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  cursor:pointer;
+  border: none;
+}
+.custom-button > img {
+  width: 2.0rem;
+}
+
+/* Efeito hover */
+.custom-button:hover {
+  background-color: #FB8C00; /* Tom um pouco mais escuro */
+  transform: scale(1.05);    /* Leve aumento de tamanho */
+}
+
+.custom-button > img{
+    width: 2.0rem;
+}
