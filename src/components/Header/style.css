@@ -17,7 +17,11 @@
     align-items: center;
 }
 
-#Logo-Input > img{
+ a{
+    height: 5.0rem;
+}
+
+a > img{
     height: 5.0rem;
 }
 

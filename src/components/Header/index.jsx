@@ -11,7 +11,7 @@ function Header () {
     return(
      <header id="Header">
         <div id="Logo-Input">
-       <img src={Store_logo} alt="" />
+       <a href="/"><img src={Store_logo} alt="" /></a>
        <Input type="text" placeholder="Digite sua Busca"/>
        </div>
        <div id="Buttons">

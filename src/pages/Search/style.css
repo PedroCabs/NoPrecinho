@@ -1,0 +1,15 @@
+#SearchContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+    margin-top: 2.0rem ;
+    margin-left: 7.20rem;
+}
+
+
+
+#Search-result{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.0rem;
+}
