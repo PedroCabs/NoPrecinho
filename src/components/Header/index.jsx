@@ -15,8 +15,8 @@ function Header () {
        <Input type="text" placeholder="Digite sua Busca"/>
        </div>
        <div id="Buttons">
-        <Button img={Banana_icon} text="A preço de Banana" />
-        <Button img={User_icon} text="Entrar    >"/>
+        <Button img={Banana_icon} text="A preço de Banana" color=" background-color: #FFA726;"/>
+        <Button img={User_icon} text="Entrar    >"  color=" background-color: #FFA726;"/>
         </div>
      </header>
     )

@@ -1,0 +1,34 @@
+#SignUpContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 5.0rem;
+    margin: auto;
+}
+
+#SignUpForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+#Text{
+    display:  inline;
+    text-align: left;
+}
+
+#Text > a {
+    color: #3196F8;
+}
+
+#ImgLS{
+    width: 23rem ;
+    height:40rem ;
+}
+
+#ImgLS > img {
+    width: 23rem ;
+    height: 40rem;
+}
