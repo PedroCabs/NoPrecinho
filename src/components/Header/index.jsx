@@ -16,7 +16,7 @@ function Header () {
        </div>
        <div id="Buttons">
         <Button img={Banana_icon} text="A preço de Banana" color=" background-color: #FFA726;"/>
-        <Button img={User_icon} text="Entrar    >"  color=" background-color: #FFA726;"/>
+       <a id="Loginbtnm" href="/login"><Button img={User_icon}  text="Entrar  >"  color=" background-color: #FFA726;"/></a> 
         </div>
      </header>
     )

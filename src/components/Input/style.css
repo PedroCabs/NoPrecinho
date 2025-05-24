@@ -1,5 +1,5 @@
-#Input{
-    width: 17.7rem;
+#InputText{
+    width: 20rem;
     height: 1.5rem;
     border-radius: 0.5rem;
     padding: 0.8rem;
@@ -9,5 +9,15 @@
 }
 
 #Input > placeholder{
+    color: #000000;
+}
+
+.InputForm{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    padding: 0.8rem;
+    font-size: 1.0rem;
+    background-color: #FFFFFF;
     color: #000000;
 }

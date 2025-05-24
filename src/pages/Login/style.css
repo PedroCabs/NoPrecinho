@@ -14,12 +14,14 @@
     gap: 1.3rem;
 }
 
-#Text{
-    display:  inline;
-    text-align: left;
+#TextLogin{
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
 }
 
-#Text > a {
+
+#TextLogin > a {
     color: #3196F8;
 }
 

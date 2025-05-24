@@ -15,11 +15,17 @@
 }
 
 #Text{
-    display:  inline;
+    display: flex;
     text-align: left;
 }
 
-#Text > a {
+#TextSignUp{
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+#TextSignUp > a {
     color: #3196F8;
 }
 

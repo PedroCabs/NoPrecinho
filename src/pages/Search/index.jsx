@@ -1,4 +1,5 @@
 import "./style.css"
+import { Products } from "../../utils/products"
 
 import Header from "../../components/Header"
 import ProductC from "../../components/ProductC"
@@ -25,14 +26,15 @@ function Search (){
 
              <h2>Produtos semelhantes</h2>
                          <div id="Search-result">
-             <ProductC imgP={Bauducco_img} NameP="Chocotone Bauducco" Price="R$33,49" Promo="Leve 2 é pague R$57,50"/>
-             <ProductC imgP={Bauducco_img} NameP="Chocotone Bauducco" Price="R$33,49" Promo="Leve 2 é pague R$57,50"/>
-             <ProductC imgP={Bauducco_img} NameP="Chocotone Bauducco" Price="R$33,49" Promo="Leve 2 é pague R$57,50"/>
-             <ProductC imgP={Bauducco_img} NameP="Chocotone Bauducco" Price="R$33,49" Promo="Leve 2 é pague R$57,50"/>
-             <ProductC imgP={Bauducco_img} NameP="Chocotone Bauducco" Price="R$33,49" Promo="Leve 2 é pague R$57,50"/>
-             <ProductC imgP={Bauducco_img} NameP="Chocotone Bauducco" Price="R$33,49" Promo="Leve 2 é pague R$57,50"/>
-             <ProductC imgP={Bauducco_img} NameP="Chocotone Bauducco" Price="R$33,49" Promo="Leve 2 é pague R$57,50"/>
-             <ProductC imgP={Bauducco_img} NameP="Chocotone Bauducco" Price="R$33,49" Promo="Leve 2 é pague R$57,50"/>  
+        {Products.map((produto, index) => (
+        <ProductC
+          key={index}
+          NameP={produto.name}
+          Price={produto.price}
+          Promo={produto.promo}
+          imgP={Object.values(produto.img)[0]} // Pegando o valor do objeto img
+        />
+      ))}
              </div>
 
           </div>

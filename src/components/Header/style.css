@@ -18,7 +18,9 @@
 }
 
  a{
-    height: 5.0rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 a > img{
@@ -28,5 +30,8 @@ a > img{
 #Buttons{
     display: flex;
     gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
     flex-direction:row;
 }
+

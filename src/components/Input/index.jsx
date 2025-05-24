@@ -1,8 +1,10 @@
+import Button from "../Button"
 import "./style.css"
 
-function Input ({type,placeholder}){
+function Input ({type,placeholder, onChange}){
     return(
-        <input id="Input" type={type} placeholder={placeholder} />
+       <>{type === "text" ? ( <input id="InputText" type={type} placeholder={placeholder} onChange={onChange}/>):
+       (<input className="InputForm" type={type} placeholder={placeholder} onChange={onChange}  />)}</>
     )
 }
 

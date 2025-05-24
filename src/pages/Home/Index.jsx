@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './style.css'
+import { Products } from "../../utils/products"
+
 
 import Americanas_logo from "../../assets/Americanas_logo.png"
 import Product_img from "../../assets/Product_img.svg"
@@ -47,30 +49,16 @@ function Home() {
       <div id='Sales'>
        <strong>Promoções Rapidas:</strong>
        <div id='sales'>
-      <ProductC 
-       imgP={Product_img2}
-       NameP="Salsicha Perdigão 5Kg"
-       Price="R$13,49"
-       Promo="Leve 2 é pague R$23,50"
-      />
-           <ProductC 
-       imgP={Product_img2}
-       NameP="Salsicha Perdigão 5Kg"
-       Price="R$13,49"
-       Promo="Leve 2 é pague R$23,50"
-      />
-     <ProductC 
-       imgP={Product_img2}
-       NameP="Salsicha Perdigão 5Kg"
-       Price="R$13,49"
-       Promo="Leve 2 é pague R$23,50"
-      />
-       <ProductC 
-       imgP={Product_img2}
-       NameP="Salsicha Perdigão 5Kg"
-       Price="R$13,49"
-       Promo="Leve 2 é pague R$23,50"
-      />
+        {Products.map((produto, index) => (
+        <ProductC
+          id={index}
+          NameP={produto.name}
+          Price={produto.price}
+          Promo={produto.promo}
+          imgP={Object.values(produto.img)[0]} // Pegando o valor do objeto img
+        />
+        
+      ))}
 </div>
 
       </div>
