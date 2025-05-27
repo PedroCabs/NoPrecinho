@@ -12,7 +12,7 @@ function Header () {
      <header id="Header">
         <div id="Logo-Input">
        <a href="/"><img src={Store_logo} alt="" /></a>
-       <Input type="text" placeholder="Digite sua Busca"/>
+       <Input type="text" placeholder="Digite sua Busca" />
        </div>
        <div id="Buttons">
         <Button img={Banana_icon} text="A preço de Banana" color=" background-color: #FFA726;"/>
