@@ -35,3 +35,27 @@ a > img{
     flex-direction:row;
 }
 
+
+#pesquisar {
+    border-radius: .5rem;
+    
+}
+#pesquisar input {
+
+    border: .1rem solid black;
+    padding: .2rem;
+    border-right: none;
+}
+
+#pesquisar button {
+    background-color: #fff;
+    border: .1rem solid black;
+    border-left: none;
+    padding: .2rem;
+}
+#pesquisar button:focus {
+    
+    outline: .1rem solid black;
+    outline: .1rem solid black;
+
+}
